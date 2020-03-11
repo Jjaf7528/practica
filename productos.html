@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+
+
+    <title>SistemaInventario</title>
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Inventario-Pro</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Productos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="productos.html">Todos los Productos</a>
+              <a class="dropdown-item" href="agregar_productos.html">Agregar Productos</a>
+              
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav> <br> <br>
+
+      
+
+      <!-- <div class="container">
+        <div class="alert alert-info" role="alert">
+            Bienvenido a mi Sistema de Inventario!!!
+                  </div>
+      </div> <br> -->
+
+          <!-- vamos -->
+
+      <div class="container">
+         <div class="row">
+            <div class="col-sm titulos ">
+                 <h2>Modulo de Productos</h2>
+             </div>
+
+
+          <div class="col-sm ">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="#">Libreria</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+                </ol>
+            </nav>
+          </div>
+          
+        </div>
+      </div><br>
+
+      <div class="container">
+        <table border="5" class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col" class="text-center">imagen</th>
+                <th scope="col" class="text-center">Nombre</th>
+                <th scope="col" class="text-center">Cantidad</th>
+                <th scope="col" class="text-center">Precio</th>
+                <th scope="col" class="text-center">Descripcion</th>
+                <th scope="col" class="text-center">Acciones</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-center"><img src="imagenes/1.jpg"  width="70"></th>
+                <td class="text-center">Harina Pan</td>
+                <td class="text-center">30</td>
+                <td class="text-center">3000</td>
+                <td class="text-center">Harina de Maiz</td>
+                <td class="text-center"> <button class="btn btn-success">Editar </button>  <button class="btn btn-danger"> Borrar</button></td>
+                
+              </tr>
+              <tr>
+                <th scope="row" class="text-center"><img src="imagenes/2.jpg"  width="70"></th>
+                <td class="text-center">Harina de Trigo</td>
+                <td class="text-center">3500</td>
+                <td class="text-center">4500</td>
+                <td class="text-center">Harina de Trigo Precocida</td>
+                <td class="text-center"><button class="btn btn-success">Editar </button>  <button class="btn btn-danger"> Borrar</button></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-center"><img src="imagenes/3.jpg"  width="70"></th>
+                <td class="text-center">Arroz</td>
+                <td class="text-center">2000</td>
+                <td class="text-center">2500</td>
+                <td class="text-center">Arroz Blanco</td>
+                <td class="text-center"><button class="btn btn-success">Editar </button>  <button class="btn btn-danger"> Borrar</button></td>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+      </div>
+
+      <div class="footer">
+        <!-- Footer -->
+       <footer class="page-footer footerC ">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+         
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+
+      </div>
+     
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
